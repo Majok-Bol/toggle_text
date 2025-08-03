@@ -7,9 +7,18 @@ body{
 }
 #btn{
   background:none;
-  background-color: #278EF5;
+
+    background-color:#63ADF8 ;
   border-radius: 5px;
   padding: 10px;
+  cursor: pointer;
+  font-size: 1rem;
 
   
+}
+#btn:hover{
+  background-color: #278EF5;
+}
+#para{
+  font-size: 1.5rem;
 }

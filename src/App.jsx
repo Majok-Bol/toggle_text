@@ -15,7 +15,7 @@ export default function App() {
     <>
       <div id="toggle-container">
         <button id="btn" onClick={handleToggleVisibility}>
-          Toggle Message
+          {isVisibile?"Hide Message":"Show Message"}
         </button>
         {/*display this message if toggle visibility is true */}
         {isVisibile && <p id='para'>I love Coding</p>}
