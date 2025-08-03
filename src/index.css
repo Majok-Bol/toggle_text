@@ -1,0 +1,15 @@
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: cyan; */
+}
+#btn{
+  background:none;
+  background-color: #278EF5;
+  border-radius: 5px;
+  padding: 10px;
+
+  
+}
